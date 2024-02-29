@@ -1,0 +1,83 @@
+﻿[22.04.23 21:19:39] info: Program: Starting Squirrel Updater: --releasify Obavestavac.1.0.0.nupkg
+[22.04.23 21:19:39] info: Program: Bootstrapper EXE found at:C:\Users\Filip\.nuget\packages\squirrel.windows\2.0.1\tools\Setup.exe
+[22.04.23 21:19:39] info: Program: Creating release package: C:\Users\Filip\source\repos\Registracija\Releases\Obavestavac.1.0.0.nupkg
+[22.04.23 21:19:39] info: ReleasePackage: Creating release package: C:\Users\Filip\source\repos\Registracija\Releases\Obavestavac.1.0.0.nupkg => C:\Users\Filip\source\repos\Registracija\Releases\Obavestavac-1.0.0-full.nupkg
+[22.04.23 21:19:40] info: ReleasePackage: Extracting dependent packages: []
+[22.04.23 21:19:40] info: ReleasePackage: Removing unnecessary data
+[22.04.23 21:19:40] info: ReleasePackage: No release notes found in C:\Users\Filip\AppData\Local\SquirrelTemp\tempa\Obavestavac.nuspec
+[22.04.23 21:19:41] info: Program: Building embedded zip file for Setup.exe
+[22.04.23 21:19:44] info: Program: Finished Squirrel Updater
+[22.04.23 21:51:10] info: Program: Starting Squirrel Updater: --releasify Obavestavac.1.1.0.nupkg
+[22.04.23 21:51:10] info: Program: Bootstrapper EXE found at:C:\Users\Filip\.nuget\packages\squirrel.windows\2.0.1\tools\Setup.exe
+[22.04.23 21:51:10] info: Program: Creating release package: C:\Users\Filip\source\repos\Registracija\Releases\Obavestavac.1.1.0.nupkg
+[22.04.23 21:51:10] info: ReleasePackage: Creating release package: C:\Users\Filip\source\repos\Registracija\Releases\Obavestavac.1.1.0.nupkg => C:\Users\Filip\source\repos\Registracija\Releases\Obavestavac-1.1.0-full.nupkg
+[22.04.23 21:51:10] info: ReleasePackage: Extracting dependent packages: []
+[22.04.23 21:51:10] info: ReleasePackage: Removing unnecessary data
+[22.04.23 21:51:10] info: ReleasePackage: No release notes found in C:\Users\Filip\AppData\Local\SquirrelTemp\tempa\Obavestavac.nuspec
+[22.04.23 21:51:11] info: Program: Building embedded zip file for Setup.exe
+[22.04.23 21:51:13] info: Program: Finished Squirrel Updater
+[05.05.23 11:36:56] info: Program: Starting Squirrel Updater: --releasify Obavestavac2.1.0.0.nupkg
+[05.05.23 11:36:56] info: Program: Bootstrapper EXE found at:C:\Users\Filip\.nuget\packages\squirrel.windows\2.0.1\tools\Setup.exe
+[05.05.23 11:36:56] info: Program: Creating release package: C:\Users\Filip\source\repos\Registracija\Releases\Obavestavac2.1.0.0.nupkg
+[05.05.23 11:36:56] info: ReleasePackage: Creating release package: C:\Users\Filip\source\repos\Registracija\Releases\Obavestavac2.1.0.0.nupkg => C:\Users\Filip\source\repos\Registracija\Releases\Obavestavac2-1.0.0-full.nupkg
+[05.05.23 11:36:56] info: ReleasePackage: Extracting dependent packages: []
+[05.05.23 11:36:56] info: ReleasePackage: Removing unnecessary data
+[05.05.23 11:36:56] info: ReleasePackage: No release notes found in C:\Users\Filip\AppData\Local\SquirrelTemp\tempa\Obavestavac2.nuspec
+[05.05.23 11:36:57] info: DeltaPackageBuilder: Extracting .\Releases\Obavestavac-1.1.0-full.nupkg and C:\Users\Filip\source\repos\Registracija\Releases\Obavestavac2-1.0.0-full.nupkg into C:\Users\Filip\AppData\Local\SquirrelTemp\tempb
+[05.05.23 11:36:57] info: DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+[05.05.23 11:36:57] info: DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+[05.05.23 11:36:57] info: DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+[05.05.23 11:36:57] info: DeltaPackageBuilder: Delta patching C:\Users\Filip\AppData\Local\SquirrelTemp\tempa\lib\net45\local.txt => C:\Users\Filip\AppData\Local\SquirrelTemp\tempb\lib\net45\local.txt
+[05.05.23 11:36:57] warn: DeltaPackageBuilder: We really couldn't create a delta for local.txt: System.DivideByZeroException: Attempted to divide by zero.
+   at Squirrel.Bsdiff.BinaryPatchUtility.Create(Byte[] oldData, Byte[] newData, Stream output)
+   at Squirrel.DeltaPackageBuilder.createDeltaForSingleFile(FileInfo targetFile, DirectoryInfo workingDirectory, Dictionary`2 baseFileListing)
+[05.05.23 11:36:57] info: DeltaPackageBuilder: \lib\net45\Microsoft.Toolkit.Uwp.Notifications.dll hasn't changed, writing dummy file
+[05.05.23 11:36:57] info: DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+[05.05.23 11:36:57] info: DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+[05.05.23 11:36:57] info: DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+[05.05.23 11:36:57] info: DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+[05.05.23 11:36:57] info: DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+[05.05.23 11:36:57] info: DeltaPackageBuilder: Delta patching C:\Users\Filip\AppData\Local\SquirrelTemp\tempa\lib\net45\Registracija.exe => C:\Users\Filip\AppData\Local\SquirrelTemp\tempb\lib\net45\Registracija.exe
+[05.05.23 11:36:57] info: DeltaPackageBuilder: \lib\net45\Registracija.exe.config hasn't changed, writing dummy file
+[05.05.23 11:36:57] info: DeltaPackageBuilder: Delta patching C:\Users\Filip\AppData\Local\SquirrelTemp\tempa\lib\net45\Registracija_ExecutionStub.exe => C:\Users\Filip\AppData\Local\SquirrelTemp\tempb\lib\net45\Registracija_ExecutionStub.exe
+[05.05.23 11:36:57] info: DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+[05.05.23 11:36:57] info: DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+[05.05.23 11:36:57] info: DeltaPackageBuilder: \lib\net45\System.ValueTuple.dll hasn't changed, writing dummy file
+[05.05.23 11:36:57] info: Program: Building embedded zip file for Setup.exe
+[05.05.23 11:37:01] info: Program: Finished Squirrel Updater
+[05.05.23 11:37:36] info: Program: Starting Squirrel Updater: --releasify Obavestavac2.1.0.0.nupkg
+[05.05.23 11:37:36] info: Program: Bootstrapper EXE found at:C:\Users\Filip\.nuget\packages\squirrel.windows\2.0.1\tools\Setup.exe
+[05.05.23 11:37:36] info: Program: Creating release package: C:\Users\Filip\source\repos\Registracija\Releases\Obavestavac2.1.0.0.nupkg
+[05.05.23 11:37:36] info: ReleasePackage: Creating release package: C:\Users\Filip\source\repos\Registracija\Releases\Obavestavac2.1.0.0.nupkg => C:\Users\Filip\source\repos\Registracija\Releases\Obavestavac2-1.0.0-full.nupkg
+[05.05.23 11:37:36] info: ReleasePackage: Extracting dependent packages: []
+[05.05.23 11:37:36] info: ReleasePackage: Removing unnecessary data
+[05.05.23 11:37:36] info: ReleasePackage: No release notes found in C:\Users\Filip\AppData\Local\SquirrelTemp\tempa\Obavestavac2.nuspec
+[05.05.23 11:37:37] info: Program: Building embedded zip file for Setup.exe
+[05.05.23 11:37:38] info: Program: Finished Squirrel Updater
+[21.05.23 17:40:30] info: Program: Starting Squirrel Updater: --releasify Obavestavac.1.0.0.nupkg
+[21.05.23 17:40:30] info: Program: Bootstrapper EXE found at:C:\Users\Filip\source\repos\Obavestavac\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[21.05.23 17:40:30] info: Program: Creating release package: C:\Users\Filip\source\repos\Obavestavac\Releases\Obavestavac.1.0.0.nupkg
+[21.05.23 17:40:30] info: ReleasePackage: Creating release package: C:\Users\Filip\source\repos\Obavestavac\Releases\Obavestavac.1.0.0.nupkg => C:\Users\Filip\source\repos\Obavestavac\Releases\Obavestavac-1.0.0-full.nupkg
+[21.05.23 17:40:30] info: ReleasePackage: Extracting dependent packages: []
+[21.05.23 17:40:30] info: ReleasePackage: Removing unnecessary data
+[21.05.23 17:40:30] info: ReleasePackage: No release notes found in C:\Users\Filip\AppData\Local\SquirrelTemp\tempa\Obavestavac.nuspec
+[21.05.23 17:40:31] info: Program: Building embedded zip file for Setup.exe
+[21.05.23 17:40:36] info: Program: Finished Squirrel Updater
+[21.05.23 17:46:20] info: Program: Starting Squirrel Updater: --releasify Obavestavac.1.0.0.nupkg
+[21.05.23 17:46:20] info: Program: Bootstrapper EXE found at:C:\Users\Filip\source\repos\Obavestavac\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[21.05.23 17:46:20] info: Program: Creating release package: C:\Users\Filip\source\repos\Obavestavac\Releases\Obavestavac.1.0.0.nupkg
+[21.05.23 17:46:20] info: ReleasePackage: Creating release package: C:\Users\Filip\source\repos\Obavestavac\Releases\Obavestavac.1.0.0.nupkg => C:\Users\Filip\source\repos\Obavestavac\Releases\Obavestavac-1.0.0-full.nupkg
+[21.05.23 17:46:20] info: ReleasePackage: Extracting dependent packages: []
+[21.05.23 17:46:20] info: ReleasePackage: Removing unnecessary data
+[21.05.23 17:46:20] info: ReleasePackage: No release notes found in C:\Users\Filip\AppData\Local\SquirrelTemp\tempa\Obavestavac.nuspec
+[21.05.23 17:46:20] info: Program: Building embedded zip file for Setup.exe
+[21.05.23 17:46:22] info: Program: Finished Squirrel Updater
+[23.05.23 14:08:12] info: Program: Starting Squirrel Updater: --releasify Obavestavac.1.0.0.nupkg
+[23.05.23 14:08:12] info: Program: Bootstrapper EXE found at:C:\Users\Filip\source\repos\Obavestavac\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[23.05.23 14:08:12] info: Program: Creating release package: C:\Users\Filip\source\repos\Obavestavac\Releases\Obavestavac.1.0.0.nupkg
+[23.05.23 14:08:12] info: ReleasePackage: Creating release package: C:\Users\Filip\source\repos\Obavestavac\Releases\Obavestavac.1.0.0.nupkg => C:\Users\Filip\source\repos\Obavestavac\Releases\Obavestavac-1.0.0-full.nupkg
+[23.05.23 14:08:12] info: ReleasePackage: Extracting dependent packages: []
+[23.05.23 14:08:12] info: ReleasePackage: Removing unnecessary data
+[23.05.23 14:08:12] info: ReleasePackage: No release notes found in C:\Users\Filip\AppData\Local\SquirrelTemp\tempa\Obavestavac.nuspec
+[23.05.23 14:08:14] info: Program: Building embedded zip file for Setup.exe
+[23.05.23 14:08:18] info: Program: Finished Squirrel Updater

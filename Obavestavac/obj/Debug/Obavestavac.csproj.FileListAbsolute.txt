@@ -1,0 +1,13 @@
+C:\Users\Filip\source\repos\Obavestavac\Obavestavac\obj\Debug\Obavestavac.csproj.AssemblyReference.cache
+C:\Users\Filip\source\repos\Obavestavac\Obavestavac\obj\Debug\Obavestavac.csproj.SuggestedBindingRedirects.cache
+C:\Users\Filip\source\repos\Obavestavac\Obavestavac\obj\Debug\Obavestavac.Delete.resources
+C:\Users\Filip\source\repos\Obavestavac\Obavestavac\obj\Debug\Obavestavac.Form1.resources
+C:\Users\Filip\source\repos\Obavestavac\Obavestavac\obj\Debug\Obavestavac.ObavezaForm.resources
+C:\Users\Filip\source\repos\Obavestavac\Obavestavac\obj\Debug\Obavestavac.Properties.Resources.resources
+C:\Users\Filip\source\repos\Obavestavac\Obavestavac\obj\Debug\Obavestavac.csproj.GenerateResource.cache
+C:\Users\Filip\source\repos\Obavestavac\Obavestavac\obj\Debug\Obavestavac.csproj.CoreCompileInputs.cache
+C:\Users\Filip\source\repos\Obavestavac\Obavestavac\bin\Debug\Obavestavac.exe.config
+C:\Users\Filip\source\repos\Obavestavac\Obavestavac\bin\Debug\Obavestavac.exe
+C:\Users\Filip\source\repos\Obavestavac\Obavestavac\bin\Debug\Obavestavac.pdb
+C:\Users\Filip\source\repos\Obavestavac\Obavestavac\obj\Debug\Obavestavac.exe
+C:\Users\Filip\source\repos\Obavestavac\Obavestavac\obj\Debug\Obavestavac.pdb
